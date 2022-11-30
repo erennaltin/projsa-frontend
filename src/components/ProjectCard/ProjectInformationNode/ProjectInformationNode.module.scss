@@ -1,0 +1,23 @@
+@import '../../../style/font.scss';
+
+.mainContainer {
+  display: flex;
+  padding: 16px;
+  margin: 0 12px;
+  align-items: center;
+  border-bottom: 3px solid rgba(80, 80, 80, 0.272);
+}
+
+p {
+  font-family: $fontFamily;
+}
+
+.titleText {
+  font-weight: 600;
+  width: 80px;
+  margin-right: 24px;
+}
+
+.descText {
+  font-weight: 400;
+}

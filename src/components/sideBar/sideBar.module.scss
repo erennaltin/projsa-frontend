@@ -1,0 +1,22 @@
+.sideBarContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-flow: nowrap column;
+  border-right: 0.1px solid rgb(80, 80, 80);
+}
+
+.logoContainer {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 60px;
+  }
+}
+
+.navButtonsContainer {
+  display: flex;
+  flex-flow: nowrap column;
+}

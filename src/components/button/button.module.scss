@@ -1,0 +1,29 @@
+@import '../../style/space.scss';
+@import '../../style/font.scss';
+
+.navButtonContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: calc($standardMargin * 1.5);
+}
+
+.navButtonIconContainer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc($standardPadding / 2);
+  margin-right: $standardMargin;
+}
+
+.navButtonText {
+  text-decoration: none;
+  font-family: $fontFamily;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.navButtonSelectedText {
+  font-weight: 700;
+}
+
